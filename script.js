@@ -14,7 +14,7 @@ const makeChange = (c) => {
 		"p":pennies	
 	};
 	return change;
-};
+}
 // Do not the change the code below
 const c = prompt("Enter c: ");
 alert(JSON.stringify(makeChange(c)));
